@@ -8,3 +8,5 @@ def quick_sort(arr):
     return quick_sort(left) + middle + quick_sort(right)
 
 # testtest
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(quick_sort(arr))
